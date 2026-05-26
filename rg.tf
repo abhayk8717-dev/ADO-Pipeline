@@ -1,3 +1,3 @@
 resource "azurerm_resource_group" "RG Creation"
 name = "Rg-Apple"
-location = "West Europe"
+location = "Central India"
