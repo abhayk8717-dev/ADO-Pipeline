@@ -1,7 +1,14 @@
-resource "azurerm_resource_group" "RG Creation"
+resource "azurerm_resource_group" "RG Creation" {
 name = "Rg-Apple"
 location = "Central India"
+}
 
-resource "azurerm_resource_group" "RG Creation1"
+resource "azurerm_resource_group" "RG Creation1" {
 name = "Rg-Orange"
 location = "Central India"
+}
+
+resource "azurerm_resource_group" "RG Creation2" {
+name = "Rg-Banana"
+location = "Central India"
+}
